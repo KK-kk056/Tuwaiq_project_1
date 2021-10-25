@@ -1,0 +1,22 @@
+.container-fluid{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-uppercase{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    background-color:grey;
+
+}
+   
+.text-uppercase{
+
+    font-size: 50px;
+}
+
+#signin{
+    height: 20px;
+}
+  
