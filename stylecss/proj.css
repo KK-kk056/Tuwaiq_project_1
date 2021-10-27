@@ -1,0 +1,73 @@
+.container-fluid{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-uppercase{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    background-color:grey;
+
+}
+   
+.text-uppercase{
+
+    font-size: 50px;
+}
+
+#signin{
+    height: 20px;
+}
+  
+
+
+
+.card-img-top{
+    width: 100%;
+    height: 80%;
+}
+.image{
+    width: 100%;
+    height: 450px;
+}
+.navbar{
+
+    background-color: gray;
+}
+
+#nav{
+    background-color: gray;
+}
+#car{
+    font-family:initial;
+}
+#car{
+    text-align-last:center;
+    color: white;
+    background-color: black;
+}
+#vido1{
+    width: 100%;
+    height:50%;
+    
+    
+}
+#ca{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: gray;
+    color: white;
+    
+}
+#img{
+    
+    height:300px;
+    opacity: 0.5;
+
+    
+    
+}
+
+#img:hover{
+    opacity: 1;
+}
