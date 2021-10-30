@@ -132,10 +132,11 @@ function displayCar(brand) {
             $(".row").append(`
             <div class="col">
                 <div class="card">
-                    <img id="bmw1${i}" src="${element['img']}" class="card-img-top image" alt="...">
+                    <img  src="${element['img']}" class="card-img-top image" alt="...">
                         <div class="card-body">
                         <h5 class="card-title "> ${element['name']} </h5>
                         <p  id="text1"class="card-text"> ${element['model']} </p>
+                        <a id="bmw1${i}" href="#" class="btn btn-primary ">add favorit</a>
                     </div>
                 </div>
             </div>`);
@@ -171,10 +172,11 @@ function displayCar(brand) {
             $(".row").append(`
                 <div class="col">
                     <div class="card">
-                        <img id="audi1${i}" src="${element['img']}" class="card-img-top image" alt="...">
+                        <img  src="${element['img']}" class="card-img-top image" alt="...">
                             <div class="card-body">
                             <h5 class="card-title ">${element['name']}</h5>
                             <p  id="text1"class="card-text">${element['model']}</p>
+                            <a id="audi1${i}" href="#" class="btn btn-primary">add favorit</a>
                         </div>
                     </div>
                 </div>`);
@@ -211,10 +213,11 @@ function displayCar(brand) {
             $(".row").append(`
                 <div class="col">
                     <div class="card">
-                        <img id="Mercedes1${i}" src="${element['img']}" class="card-img-top image" alt="...">
+                        <img  src="${element['img']}" class="card-img-top image" alt="...">
                             <div class="card-body">
                             <h5 class="card-title ">${element['name']}</h5>
                             <p  id="text1"class="card-text">${element['model']}</p>
+                            <a id="Mercedes1${i}" href="#" class="btn btn-primary">add favorit</a>
                         </div>
                     </div>
                 </div>`);
@@ -251,10 +254,11 @@ function displayCar(brand) {
             $(".row").append(`
                 <div class="col">
                     <div class="card">
-                        <img id="Porsche1${i}" src="${element['img']}" class="card-img-top image" alt="...">
+                        <img  src="${element['img']}" class="card-img-top image" alt="...">
                             <div class="card-body">
                             <h5 class="card-title ">${element['name']}</h5>
                             <p  id="text1"class="card-text">${element['model']}</p>
+                            <a id="Porsche1${i}" href="#" class="btn btn-primary">add favorit</a>
                         </div>
                     </div>
                 </div>`);

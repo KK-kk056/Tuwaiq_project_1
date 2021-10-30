@@ -8,6 +8,7 @@ favoriteUserList.forEach(element => {
                         <img src="${element[key]['Favorites'][item]['image']}" class="card-img-top" alt="..." height:"170px">
                         <div class="card-body">
                             <h5 class="card-title">${element[key]['Favorites'][item]['name']}</h5>
+                            
                         </div>
                     </div>
                 </div>`);
